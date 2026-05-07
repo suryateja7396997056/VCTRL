@@ -1604,20 +1604,87 @@
     </div>
   </header>
 
-    <main>
+      <main>
     <section class="hero" style="min-height: 40vh; padding-top: 150px; padding-bottom: 50px;">
       <div class="tech-line" aria-hidden="true"></div>
       <div class="container hero-inner" style="grid-template-columns: 1fr;">
         <div class="hero-copy" style="text-align: center;">
-          <h1 style="font-size: 3.5rem;">Contact Us</h1>
+          <div class="hero-badge"><i class="fa-solid fa-envelope"></i> Get In Touch</div>
+          <h1 style="font-size: 3.5rem;">Contact <span class="gradient-text">Us</span></h1>
         </div>
       </div>
     </section>
 
     <section class="section-pad">
       <div class="container">
-        <p style="text-align: center; color: var(--text-light); font-size: 1.2rem;">Content for Contact Us will be populated here.</p>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px;">
+          
+          <div class="reveal">
+            <h2 style="font-size: 2rem; margin-bottom: 24px; color: var(--text-dark);">Let's discuss your power requirements</h2>
+            <p style="color: var(--text-light); margin-bottom: 32px; line-height: 1.6;">Our technical team is ready to assist you with equipment sizing, technical queries, and custom manufacturing requirements.</p>
+            
+            <div style="display: flex; gap: 24px; margin-bottom: 24px;">
+              <div style="width: 48px; height: 48px; background: rgba(255,87,34,0.1); color: var(--primary-accent); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.25rem; flex-shrink: 0;">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div>
+                <h4 style="color: var(--text-dark); margin-bottom: 8px;">Head Office</h4>
+                <p style="color: var(--text-light); line-height: 1.6;">Cherlapally – Rampally – Ghatkesar Rd, Cherlapalli, Secunderabad, Telangana 501301, India</p>
+              </div>
+            </div>
+
+            <div style="display: flex; gap: 24px; margin-bottom: 24px;">
+              <div style="width: 48px; height: 48px; background: rgba(255,87,34,0.1); color: var(--primary-accent); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.25rem; flex-shrink: 0;">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div>
+                <h4 style="color: var(--text-dark); margin-bottom: 8px;">Phone</h4>
+                <p style="color: var(--text-light); line-height: 1.6;"><a href="tel:+919986501123" style="color: inherit; text-decoration: none;">+91 99865 01123</a><br><a href="tel:+919848001128" style="color: inherit; text-decoration: none;">+91 98480 01128</a></p>
+              </div>
+            </div>
+
+            <div style="display: flex; gap: 24px; margin-bottom: 24px;">
+              <div style="width: 48px; height: 48px; background: rgba(255,87,34,0.1); color: var(--primary-accent); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.25rem; flex-shrink: 0;">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div>
+                <h4 style="color: var(--text-dark); margin-bottom: 8px;">Email</h4>
+                <p style="color: var(--text-light); line-height: 1.6;"><a href="mailto:admin@v-ctrl.com" style="color: inherit; text-decoration: none;">admin@v-ctrl.com</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="calc-form reveal">
+            <h3>Send an Inquiry</h3>
+            <form id="contactForm">
+              <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" class="form-control" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" class="form-control" required>
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" class="form-control" required>
+              </div>
+              <div class="form-group">
+                <label for="message">Your Message</label>
+                <textarea id="message" class="form-control" rows="4" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary" style="width: 100%;">Submit Inquiry <i class="fa-solid fa-paper-plane"></i></button>
+            </form>
+          </div>
+
+        </div>
       </div>
+    </section>
+    
+    <section>
+        <div style="width: 100%; height: 400px; background: var(--bg-alt); display: flex; align-items: center; justify-content: center;">
+            <p style="color: var(--text-light);">Interactive Google Map Embed will be placed here</p>
+        </div>
     </section>
   </main>
 
